@@ -3,7 +3,6 @@ let arregloB:number[]=new Array(6);
 let arregloSuma:number[]=new Array(6);
 
 let indice:number;
-let sumaElementos:number = 0;
 
 for (indice=0; indice < arregloA.length ; indice++){
     arregloA[indice] = Number(prompt(`Ingrese el valor del elemento actual ${indice} de ${arregloA.length} del arreglo A`));

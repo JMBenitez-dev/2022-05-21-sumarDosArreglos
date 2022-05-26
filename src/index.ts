@@ -16,3 +16,5 @@ for (indice=0; indice < arregloSuma.length ; indice++){
   arregloSuma[indice] = arregloA[indice] + arregloB[indice];
   console.log(`La suma del elemento ${indice} del arreglo A:${arregloA[indice]} + el del arreglo B:${arregloB[indice]} = ${arregloSuma[indice]}`);
 }
+// Esta muy bien tu solución, como verás, los casos donde hay codigos casi identicos son ideales para usar funciones y evitar codigo repetido
+// Si bien este ejercicio no pedia usar funciones, cuando tengas tiempo podes intentar hacer eso como una practica.
